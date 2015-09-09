@@ -1,0 +1,2 @@
+#Car Manufacturer
+This is an exercise in designing and representing classes in Javascript. The highest class is Steel.js which trickles all the way down to the specific make of a car, truck or motorcycle class.
