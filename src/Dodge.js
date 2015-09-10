@@ -15,4 +15,16 @@ export default class Dodge extends Truck{
   set year(y) {
     this._year = y;
   }
+  get model() {
+    return this._model;
+  }set model(m) {
+    this._model =m;
+  }
+  get bedCover() {
+    return this._bedCover;
+  }
+  set bedCover(bC) {
+    this._bedCover = bC;
+  }
+
 }
