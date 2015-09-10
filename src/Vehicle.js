@@ -8,5 +8,17 @@ export default class Vehicle extends Engine {
     this._interior = interior;
   }
 
-  get
+  get body() {
+    return this._body;
+  }
+  set body(b) {
+    this._body = b;
+  }
+
+  get interior() {
+    return this._interior;
+  }
+  set interior(i) {
+    this._interior = i;
+  }
 }
