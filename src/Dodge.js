@@ -8,4 +8,11 @@ export default class Dodge extends Truck{
     this._model = model;
     this._bedCover = bedCover;
   }
+
+  get year() {
+    return this._year;
+  }
+  set year(y) {
+    this._year = y;
+  }
 }
