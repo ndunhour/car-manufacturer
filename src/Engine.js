@@ -36,7 +36,4 @@ export default class Engine extends Steel {
   set horsepower(h) {
     this._horsepower = h;
   }
-
-
-
 }
